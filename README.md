@@ -7,3 +7,6 @@ use loadstrings to run the menus via executor. I have used and tested these on x
 
 this is an example of a loadstring 
 loadstring(game:HttpGet(""))()
+
+
+I will be making a menu with all of these menus combined once i make a little bit more cheats for it.
