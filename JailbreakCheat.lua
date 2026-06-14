@@ -23,7 +23,6 @@ local handlingActive = false
 local flyIntensity = 0.5
 local handlingIntensity = 0.1
 
--- Notification System
 local notificationContainer = Instance.new("Frame")
 notificationContainer.Name = "NotificationContainer"
 notificationContainer.Size = UDim2.new(0, 250, 1, 0)
@@ -90,7 +89,6 @@ local function showNotification(title, message)
 	end)
 end
 
--- Main Frame Config
 local frame = Instance.new("Frame")
 frame.Name = "MainFrame"
 frame.Size = UDim2.new(0, 320, 0, 320) 
@@ -110,7 +108,6 @@ uiStroke.Thickness = 2
 uiStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 uiStroke.Parent = frame
 
--- Corner Resize Handle
 local resizeHandle = Instance.new("ImageButton")
 resizeHandle.Name = "ResizeHandle"
 resizeHandle.Size = UDim2.new(0, 16, 0, 16)
@@ -282,7 +279,6 @@ local dupMarkerButton = createButton("DupMarkerButton", "Duplicate World Marker"
 local addCashButton = createButton("AddCashButton", "Add $100M Cash", Color3.fromRGB(46, 204, 113), 21)
 local giveItemButton = createButton("GiveItemButton", "Give Tom Pearl Item", Color3.fromRGB(155, 89, 182), 22)
 
--- New Addition: Give Donut Button
 local giveDonutButton = createButton("GiveDonutButton", "Give Donut", Color3.fromRGB(233, 30, 99), 23)
 
 local minimizeButton = Instance.new("TextButton")
@@ -353,7 +349,6 @@ unloadHint.TextSize = 10
 unloadHint.TextXAlignment = Enum.TextXAlignment.Right
 unloadHint.Parent = frame
 
--- Dragging & Scaling Logic
 local dragging, dragInput, dragStart, startPosition
 local resizing, resizeStartSize
 
@@ -418,7 +413,6 @@ UserInputService.InputChanged:Connect(function(input)
 	end
 end)
 
--- Help Utility Functions
 local function findAnyPartDeep(instance)
 	if instance:IsA("BasePart") then return instance end
 	for _, child in ipairs(instance:GetChildren()) do
@@ -526,7 +520,6 @@ local function updateEspVisibility()
 	end
 end
 
--- Feature Event Connectors
 scanButton.MouseButton1Click:Connect(function()
 	local vehicle, distance = findClosestVehicleInstance()
 	if vehicle then
