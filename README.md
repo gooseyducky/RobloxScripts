@@ -6,7 +6,7 @@ dm me on discord on what games i should do (@.gooseyduck)
 use loadstrings to run the menus via executor. I have used and tested these on xeno if u need an executor go to https://www.xeno.now/ do not go to any others its prob malware
 
 this is an example of a loadstring 
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gooseyducky/RobloxScripts/refs/heads/main/JailbreakCheatV2.luau"))()
 
 
 I will be making a menu with all of these menus combined once i make a little bit more cheats for it.
