@@ -1,5 +1,4 @@
-A respritory that has all of my roblox cheats for games. thats really it. i dont care if you steal this shit it literally took me like 10 min per menu
-
+A respritory that has all of my roblox cheats for games. thats really it.
 
 dm me on discord on what games i should do (@.gooseyduck)
 
