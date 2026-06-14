@@ -36,6 +36,7 @@ local pathfindVelocitySpeed = 120
 local hoverHeightOffset = 3.5
 
 local function openYield()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	print("Open Yield function executed successfully!")
 end
 
