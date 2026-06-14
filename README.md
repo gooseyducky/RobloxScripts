@@ -1,4 +1,5 @@
-A respritory that has all of my roblox cheats for games. thats really it.
+A respritory that has all of my roblox cheats for games. thats really it.\
+all made by me, wihtout any stupid key locked things because that is very annoying when i wanna use a cheat.
 
 dm me on discord on what games i should do (@.gooseyduck)
 
