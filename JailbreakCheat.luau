@@ -1,7 +1,4 @@
--- by @.gooseyduck on discord
-
--- skid = bad boy 
--- if u skid or smth uhh fuh you im not obfuscating this shit cuz its ass
+-- use the new menu has a decent chunk of the stuff here but other new stuff. this will not be updated any more.
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "JBClientGui"
@@ -162,7 +159,7 @@ scrollingFrame.BackgroundTransparency = 1
 scrollingFrame.BorderSizePixel = 0
 scrollingFrame.ScrollBarThickness = 4
 scrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(255, 102, 0) 
-scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 1225) -- Expanded slightly to fit the new button
+scrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 1225)
 scrollingFrame.Parent = frame
 
 local uiListLayout = Instance.new("UIListLayout")
@@ -843,11 +840,9 @@ giveItemButton.MouseButton1Click:Connect(function()
 	end
 end)
 
--- Connect Donut Exchanger Action
 giveDonutButton.MouseButton1Click:Connect(function()
 	pcall(function()
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
-		-- Safely invoke the requested Donut binder module
 		local binder = require(ReplicatedStorage:WaitForChild("DonutExchanger"):WaitForChild("DonutExchangerBinder"))
 		if binder and binder.Start then
 			binder:Start()
